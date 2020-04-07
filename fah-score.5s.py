@@ -31,7 +31,9 @@ with urllib.request.urlopen(req) as res:
     # User rank
     top = body["rank"] / body["total_users"] * 100
     print("Rank: " + separator(body["rank"]) +
-          " / " + separator(body["total_users"]) + (" (top %.02f %%)" % top) + ("| href='https://stats.foldingathome.org/donor/%s'" % user_account))
+          " / " + separator(body["total_users"]) +
+          (" (top %.02f %%)" % top) +
+          ("| href='https://stats.foldingathome.org/donor/%s'" % user_account))
 
     # Team
     print("---")
