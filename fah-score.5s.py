@@ -37,6 +37,6 @@ with urllib.request.urlopen(req) as res:
 
     # Team
     print("---")
-    for team in sorted(body["teams"], key=lambda team: team["credit"], reverse=True):
-        print(team["name"] + " " + separator(team["credit"]) +
-              ("| href='https://stats.foldingathome.org/team/%d'" % team["team"]))
+    for t in sorted(body["teams"], key=lambda t: t["credit"], reverse=True):
+        print(t["name"] + " " + separator(t["credit"]) +
+              ("| href='https://stats.foldingathome.org/team/%d'" % t["team"]))
