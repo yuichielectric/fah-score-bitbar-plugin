@@ -27,7 +27,14 @@ with urllib.request.urlopen(req) as res:
     body = json.load(res)
     print("F@h " + separator(body["credit"]))
     print('---')
+
+    # User rank
     top = body["rank"] / body["total_users"] * 100
     print("Rank: " + separator(body["rank"]) +
-          " / " + separator(body["total_users"]))
-    print("Top %.02f %%" % top)
+          " / " + separator(body["total_users"]) + (" (top %.02f %%)" % top) + ("| href='https://stats.foldingathome.org/donor/%s'" % user_account))
+
+    # Team
+    print("---")
+    for team in sorted(body["teams"], key=lambda team: team["credit"], reverse=True):
+        print(team["name"] + " " + separator(team["credit"]) +
+              ("| href='https://stats.foldingathome.org/team/%d'" % team["team"]))
