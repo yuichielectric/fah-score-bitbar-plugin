@@ -13,7 +13,7 @@
 import json
 import urllib.request
 
-
+# Specify your accoount name here
 user_account = 'yuichielectric'
 
 
