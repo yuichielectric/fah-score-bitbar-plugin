@@ -6,7 +6,7 @@
 # <bitbar.author>Yuichi Tanaka</bitbar.author>
 # <bitbar.author.github>yuichielectric</bitbar.author.github>
 # <bitbar.desc>Displays the score of your Folding@Home account</bitbar.desc>
-# <bitbar.image>https://pbs.twimg.com/media/EU_qM1gUUAIlaEr?format=jpg</bitbar.image>
+# <bitbar.image>https://raw.githubusercontent.com/yuichielectric/fah-score-bitbar-plugin/master/screen-capture.png</bitbar.image>
 # <bitbar.dependencies>python3</bitbar.dependencies>
 # <bitbar.abouturl>https://github.com/yuichielectric/fah-score-bitbar-plugin</bitbar.abouturl>
 
