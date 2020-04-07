@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
 
+# This script displays your Folding@Home score.
+# https://foldingathome.org/
+# https://stats.foldingathome.org/donors
+#
 # <bitbar.title>Folding@Home score</bitbar.title>
 # <bitbar.version>v1.0</bitbar.version>
 # <bitbar.author>Yuichi Tanaka</bitbar.author>
