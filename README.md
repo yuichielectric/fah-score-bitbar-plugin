@@ -11,6 +11,10 @@ This plugin displays your [Foldgin@Home](https://foldingathome.org/) score in yo
 
 ![install the plugin](https://raw.githubusercontent.com/yuichielectric/fah-score-bitbar-plugin/master/add-to-bitbar.png)
 
-3. Edit the script to specify your account.
+3. Now the script called "fah-score.1m.py" is installed at your BitBar plugins directory (You can see where is your plugings directory by checking BitBar > Preferences > Change Plugin Folder).
+
+![Change Plugin Folder](https://raw.githubusercontent.com/yuichielectric/fah-score-bitbar-plugin/master/plugins-directory.png)
+
+Then, edit the script to specify your account.
 
 ![install the plugin](https://raw.githubusercontent.com/yuichielectric/fah-score-bitbar-plugin/master/your-account.png)
